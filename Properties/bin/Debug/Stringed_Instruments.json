@@ -1,0 +1,35 @@
+{
+  "name": "Stringed_Instruments",
+  "columns": [
+    {
+      "name": "ID",
+      "type": "integer",
+      "isPrimary": true
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "NumberOfStrings",
+      "type": "integer",
+      "isPrimary": false
+    },
+    {
+      "name": "Creator",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "CreationDate",
+      "type": "integer",
+      "isPrimary": false
+    },
+    {
+      "name": "HaveBowOrNot",
+      "type": "boolean",
+      "isPrimary": false
+    }
+  ]
+}

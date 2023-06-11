@@ -1,0 +1,30 @@
+{
+  "name": "Computer_Games",
+  "columns": [
+    {
+      "name": "ID",
+      "type": "integer",
+      "isPrimary": true
+    },
+    {
+      "name": "GameTitle",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "Genre",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "Developer",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "ReleaseDate",
+      "type": "dateTime",
+      "isPrimary": false
+    }
+  ]
+}
